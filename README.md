@@ -34,7 +34,7 @@ We split our code in 3 sections:
    yarn start
    ```
 
-_Notes: keep in mind that the sample does NOT have explicit AWS credentials set, so it will try to fetch them from one of the available sources. Check AWS documentations [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html) about how the Node SDK chooses credentials._
+_Note: keep in mind that the sample does NOT have explicit AWS credentials set, so it will try to fetch them from one of the available sources. Check AWS documentations [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html) about how the Node SDK chooses credentials._
 
 ### Run Angular app
 
@@ -55,3 +55,13 @@ _Notes: keep in mind that the sample does NOT have explicit AWS credentials set,
    ```bash
    yarn start
    ```
+
+### Run axios sample script
+
+1. Run script
+
+   ```bash
+   node src/axios.js
+   ```
+
+_Note: for both Angular app and the axios sample script, the server must be running. Also, inside the axios sample script, in the line 32 you must specify the bucket name._
